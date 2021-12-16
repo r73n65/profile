@@ -1,0 +1,27 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.title {
+    font-family: $Oswald;
+    font-size: $font-large;
+}
+
+.caption {
+    margin-bottom: 30px;
+}
+
+.iconWrapper {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-size: $font-normal;
+}
+
+.card:hover {
+    background-color: $primary-color;
+}

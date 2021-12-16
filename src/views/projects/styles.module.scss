@@ -1,0 +1,94 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+    padding: 100px 0;
+    background-color: $primary-color;
+}
+
+.projectWrapper {
+    width: 100%;
+    position: absolute;
+    display: fixed;
+    padding: 40px 0 0 0;
+}
+
+.wordWrapper {
+    margin: 20px 0 50px 0;
+}
+
+.list {
+    display: flex;
+    margin: 20px 0;
+}
+
+.title {
+    font-family: $Oswald;
+    font-size: $font-large;
+    margin: 20px 0;
+}
+
+.caption {
+    margin-bottom: 30px;
+}
+
+.card {
+    padding: 0 0 20px 0;
+}
+
+.projectImage {
+    display: block;
+    height: 100%;
+    width: 100%; 
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.carouselImage {
+    display: block;
+    width: 100%;
+}
+
+.projectTitle {
+    font-size: $font-normal;
+    margin: 0 0 0 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.projectCaption {
+    margin: 10px 0 0 20px;
+}
+
+.stayTune {
+    background-color: $footer-color;
+    height: 400px;
+}
+
+.stayTune p {
+    margin: 150px 0;
+    font-size: $font-large;
+    color: $grey-color;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    font-size: $font-small;
+    width: 15%;
+}
+
+.value {
+    display: inline-block;
+    width: 85%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}

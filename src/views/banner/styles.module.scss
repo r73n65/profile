@@ -1,0 +1,87 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+    background-image: linear-gradient($primary-color, white);
+    width: 100%;
+    padding: 150px 0;
+}
+
+.titleWrapper {
+    width: 650px;
+}
+
+.title {
+    font-family: $Courier;
+    font-size: $font-title;
+    overflow: hidden;
+    border-right: 10px solid $grey-color; 
+    white-space: nowrap;
+    letter-spacing: 15px;
+    animation: 
+      typing 4s steps(40, end), 
+      blinking 1s step-end infinite;
+    -webkit-animation: 
+      typing 4s steps(40, end), 
+      blinking 1s step-end infinite;
+}
+
+.subTitle {
+    font-family: $Oswald;
+    font-size: $font-subtitle;
+}
+
+.caption {
+    font-family: $Oswald;
+    font-size: $font-caption;
+}
+
+.listWrapper li {
+    display: inline-block;
+    margin: 0 40px 0 0;
+}
+
+.listWrapper li a {
+    text-decoration: none;
+    color: black;
+} 
+
+.listWrapper li a:hover {
+    color: $secondary-color;
+}
+
+@-webkit-keyframes typing {
+    from { 
+        width: 0 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes typing {
+    from { 
+        width: 0 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@-webkit-keyframes blinking {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: $grey-color; 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: $grey-color; 
+    }
+}
