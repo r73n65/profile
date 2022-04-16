@@ -1,5 +1,5 @@
 # Rina's Profile
-This repository is used for Rina's Profile: https://rinaxc.github.io/profile 
+This repository is used for Rina's Profile: https://rinachua.github.io/profile 
 It is built using ReactJS.
 
 ## Pre-requisites
